@@ -46,5 +46,7 @@ public class App {
             }
             System.out.println("\n");
         } while (option != 0);
+
+        in.close();
     }
 }
